@@ -11,7 +11,7 @@ from hyperliquid.utils.types import (
     Subscription,
     cast,
 )
-from hyperliquid.websocket_manager import WebsocketManager
+from hyperliquid.websocket_manager import ReconnectableWebsocketManager as WebsocketManager
 
 
 class Info(API):
